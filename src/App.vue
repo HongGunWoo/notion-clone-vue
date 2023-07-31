@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>
+    {{ msg }}
+  </h1>
   <Hello />
 </template>
 
@@ -12,8 +14,8 @@ export default {
   },
   data() {
     return {
-      msg: 'Hi webpack!'
+      msg: 'Hello Vue!'
     }
-  }
+  },
 }
 </script>
