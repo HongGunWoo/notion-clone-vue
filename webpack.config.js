@@ -62,7 +62,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    port: 1234,
+    port: 8079,
     historyApiFallback: true,
   },
 };
